@@ -1,0 +1,41 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html,
+body {
+  height: 100%;
+  font-family: futura;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin-bottom: 16px;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: black;
+  height: 50px;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+  margin-left: 20px;
+}
+
+.log span {
+  padding: 5px 10px;
+  color: white;
+  background-color: darkgreen;
+  border-radius: 5px;
+  margin-right: 20px;
+}
